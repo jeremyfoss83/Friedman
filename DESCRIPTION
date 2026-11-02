@@ -1,0 +1,20 @@
+Package: Friedman
+Title: Simple Tools for Comparing Changes in Data
+Version: 0.0.0.9000
+Authors@R:
+    person("Jeremy", "Foss",
+           email = "jeremyfoss83@gmail.com",
+           role = c("aut", "cre"))
+Description: Provides simple tools for comparing numerical data and
+    calculating changes over time. The package is intended for students
+    and beginner R users who want to summarize data and visualize
+    differences between values.
+Depends:
+    R (>= 3.1.2)
+Imports:
+    dplyr,
+    ggplot2
+License: GPL-3
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
